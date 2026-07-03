@@ -7,4 +7,4 @@ while(num>0):
     dec=dec+exp
     i+=1
     num//=10
-print(dec)
+print("The conversion of Binary to Decimal is",dec)
