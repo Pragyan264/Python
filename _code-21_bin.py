@@ -2,4 +2,4 @@
 num=int(input("Enter the number:"))
 b=bin(num)
 b=b.replace("0b","")
-print(b)
+print("The conversion of decimal to binary is",b) 
