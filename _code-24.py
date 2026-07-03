@@ -5,11 +5,11 @@ n=num
 if(pow>0):
     for i in range(1,pow):
         n=n*num
-    print(n)
+    print("The Solution of entered number is",n)
 elif(pow<0):
     pow=-pow
     for i in range(1,pow):
         n=n*num
-    print(1/n)
+    print("The Solution of entered number is",1/n)
 else:
-    print(1)
+    print("The Solution of entered number is 1")
