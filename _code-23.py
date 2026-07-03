@@ -6,4 +6,4 @@ count=0
 for i in range(0,len(b)):
     if(b[i]=="1"):
         count+=1
-print(count)
+print("The Count set bits in a number",count)
